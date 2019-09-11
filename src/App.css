@@ -29,8 +29,8 @@
 .App {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -49,11 +49,11 @@
     background: #1f61af;
 }
 .special_container {
-      width: 50%;
+      /* width: 50%; */
       display: flex;
 }
 .button_containter {
-      width: 50%;
+      /* width: 50%; */
       display: flex;
       flex-wrap: wrap;
 }
@@ -67,3 +67,25 @@
 .number_button {
     background: #113c77;
 }
+
+.allTheButtons {
+    display: flex;
+    margin-top: 2%;
+}
+
+.left {
+    /* width: 70%; */
+    margin-left: 17%;
+}
+
+.right {
+    /* width: 70%; */
+    margin-right: 17%;
+}
+
+/*the big zero*/
+
+.number_button:nth-child(10) {
+    width: 160px;
+    border-radius: 100px;
+ }
